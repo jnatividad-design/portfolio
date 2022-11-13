@@ -12,7 +12,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>Hello World</div>
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+      <h1 className="text-6xl font-bold mt-200">
+          Hello I'm{' '}
+          <a className="text-blue-500" href="https://nextjs.org">
+            Joshua Natividad!
+          </a>
+        </h1>
+        <p className="mt-3 text-2xl">
+          Junior UX Designer who likes to {' '}
+          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
+            code
+          </code>
+        </p>
+      </main>
     </div>
   );
 }
