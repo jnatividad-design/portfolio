@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import FeaturedProjects from '../components/FeaturedProjects';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           </code>
         </p>
       </main>
+      <FeaturedProjects />
     </div>
   );
 }
